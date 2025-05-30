@@ -10,7 +10,12 @@
 
 #include "cloud_msgs/cloud_info.h"
 
-#include <opencv/cv.h>
+// #include <opencv/cv.h>
+// OpenCV4计算机视觉库头文件
+#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
